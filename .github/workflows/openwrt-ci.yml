@@ -14,8 +14,8 @@ on:
   push:
     branches: 
       - master
-  # schedule:
-  #   - cron: 0 20 * * *
+    schedule:
+      - cron: 0 20 * * *
   release:
     types: [published]
 
@@ -72,7 +72,7 @@ jobs:
           CONFIG_TARGET_ath79_tiny=y
           CONFIG_TARGET_ath79_tiny_DEVICE_tplink_tl-wr703n=y
           CONFIG_EFI_IMAGES=n
-          CONFIG_TARGET_IMAGES_GZIP=y
+          CONFIG_TARGET_IMAGES_GZIP=n
           CONFIG_PACKAGE_curl=y
           CONFIG_PACKAGE_wget=y
           # CONFIG_PACKAGE_luci is not set
