@@ -73,7 +73,7 @@ jobs:
           # 例如:
 
           cat >> .config <<EOF
- CONFIG_TARGET_ramips=y
+          CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7620=y
           CONFIG_TARGET_MULTI_PROFILE=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_aigale_ai-br100=y
