@@ -75,36 +75,13 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7620=y
-          CONFIG_TARGET_MULTI_PROFILE=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_ralink_mt7620a-mt7530-evb=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_ralink_mt7620a-mt7610e-evb=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_ralink_mt7620a-evb=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_ralink_mt7620a-v22sg-evb=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_microduino_microwrt=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_zte_q7=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_zyxel_keenetic-omni=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_zyxel_keenetic-omni-ii=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_zyxel_keenetic-viva=y
-          CONFIG_PACKAGE_lua=y
           CONFIG_PACKAGE_luci=y
-          CONFIG_PACKAGE_luci-base=y
-          CONFIG_PACKAGE_luci-lib-base=y
-          CONFIG_PACKAGE_luci-lib-ip=y
-          CONFIG_PACKAGE_luci-lib-jsonc=y
-          CONFIG_PACKAGE_luci-lib-nixio=y
-          CONFIG_PACKAGE_luci-mod-admin-full=y
-          CONFIG_PACKAGE_luci-mod-network=y
-          CONFIG_PACKAGE_luci-mod-status=y
-          CONFIG_PACKAGE_luci-mod-system=y
+          #CONFIG_PACKAGE_ppp-mod-pppoe is not set
           CONFIG_PACKAGE_luci-theme-bootstrap=y
           CONFIG_PACKAGE_luci-theme-openwrt-2020=y
-          CONFIG_PACKAGE_rpcd=y
-          CONFIG_PACKAGE_rpcd-mod-file=y
-          CONFIG_PACKAGE_rpcd-mod-iwinfo=y
-          CONFIG_PACKAGE_rpcd-mod-luci=y
-          CONFIG_PACKAGE_rpcd-mod-rrdns=y
-          CONFIG_PACKAGE_uhttpd=y
-          CONFIG_PACKAGE_uhttpd-mod-ubus=y
           EOF
 
           #
