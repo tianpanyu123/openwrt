@@ -76,29 +76,6 @@ jobs:
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7620=y
           CONFIG_TARGET_MULTI_PROFILE=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_aigale_ai-br100=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_alfa-network_ac1200rm=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_alfa-network_r36m-e4g=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_alfa-network_tube-e4g=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_asus_rp-n53=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_asus_rt-ac51u=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_asus_rt-ac54u=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_asus_rt-n12p=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_asus_rt-n14u=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_bdcom_wap2100-sk=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_buffalo_whr-1166d=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_buffalo_whr-300hp2=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_buffalo_whr-600d=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_buffalo_wmr-300=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_comfast_cf-wr800n=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_dlink_dch-m225=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_dlink_dir-810l=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_domywifi_dm202=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_domywifi_dm203=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_domywifi_dw22d=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_dovado_tiny-ac=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_edimax_br-6478ac-v2=y
-          CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_edimax_ew-7476rpc=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_ralink_mt7620a-mt7530-evb=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_ralink_mt7620a-mt7610e-evb=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_ralink_mt7620a-evb=y
@@ -108,16 +85,8 @@ jobs:
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_zyxel_keenetic-omni=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_zyxel_keenetic-omni-ii=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_zyxel_keenetic-viva=y
-          CONFIG_PACKAGE_cgi-io=y
-          CONFIG_PACKAGE_libiwinfo-lua=y
-          CONFIG_PACKAGE_liblua=y
-          CONFIG_PACKAGE_liblucihttp=y
-          CONFIG_PACKAGE_liblucihttp-lua=y
-          CONFIG_PACKAGE_libubus-lua=y
           CONFIG_PACKAGE_lua=y
           CONFIG_PACKAGE_luci=y
-          CONFIG_PACKAGE_luci-app-firewall=y
-          CONFIG_PACKAGE_luci-app-opkg=y
           CONFIG_PACKAGE_luci-base=y
           CONFIG_PACKAGE_luci-lib-base=y
           CONFIG_PACKAGE_luci-lib-ip=y
@@ -138,7 +107,6 @@ jobs:
           CONFIG_PACKAGE_rpcd-mod-rrdns=y
           CONFIG_PACKAGE_uhttpd=y
           CONFIG_PACKAGE_uhttpd-mod-ubus=y
-          CONFIG_TARGET_ALL_PROFILES=y
           EOF
 
           #
