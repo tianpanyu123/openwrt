@@ -86,6 +86,7 @@ jobs:
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_zyxel_keenetic-omni-ii=y
           CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_zyxel_keenetic-viva=y
           CONFIG_PACKAGE_lua=y
+          CONFIG_PACKAGE_cgi-io=y
           CONFIG_PACKAGE_luci=y
           CONFIG_PACKAGE_luci-base=y
           CONFIG_PACKAGE_luci-lib-base=y
@@ -96,8 +97,6 @@ jobs:
           CONFIG_PACKAGE_luci-mod-network=y
           CONFIG_PACKAGE_luci-mod-status=y
           CONFIG_PACKAGE_luci-mod-system=y
-          CONFIG_PACKAGE_luci-proto-ipv6=y
-          CONFIG_PACKAGE_luci-proto-ppp=y
           CONFIG_PACKAGE_luci-theme-bootstrap=y
           CONFIG_PACKAGE_luci-theme-openwrt-2020=y
           CONFIG_PACKAGE_rpcd=y
